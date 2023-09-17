@@ -1,0 +1,14 @@
+{
+  "name": "lns-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build" 
+  },
+  "homepage": "https://vinayaknawdhar.github.io/LNS",
+  "author": "",
+  "license": "ISC"
+}
