@@ -1,0 +1,304 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Dela+Gothic+One&family=Inter:wght@800&family=Pacifico&family=Playfair+Display:wght@600&family=Poppins&family=Roboto&family=Spline+Sans+Mono&family=Ubuntu&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,body{
+  height: 100%;
+  width: 100%;
+  font-size: 62.5%;
+  font-family: 'Spline Sans Mono';
+}
+
+
+
+/* Navbar section  */
+nav{
+  width: 100%;
+  height: 150px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  font-size: 2.3rem;
+  color: #2D6A4F;
+  position: absolute;
+  top: 0px;
+  gap: 15%;
+  justify-content: center;
+}
+nav ul{
+  display: flex;  
+  gap: 100px;
+}
+nav img{
+  height: 15vh;
+  mix-blend-mode: multiply;
+}
+nav img:nth-child(5){
+  height: 10vh;
+}
+.hamburger-nav{
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  background: rgba(75, 154, 107, 0.852);
+  z-index: 5;
+  color: white;
+  top: 0px;
+  display: flex;
+  align-items: center;
+  transform: translate(-120%);
+  transition: all 0.3s ease;
+}
+.hamburger-icon-div{
+  /* width: 100%; */
+  padding: 5px 30px;
+}
+.hamburger-nav ul{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: larger;
+}
+.hamburger-icon{
+  height: 30px;
+}
+.hamburger-icon-div{
+  display: none;
+}
+
+/* Section--1   */
+
+.section--1{
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(to top right,#1B4332,#D5F0D9);
+  padding-top: 10%;
+  font-size: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.section--1 h1{
+  color: #081C15;
+  width: 50%;
+  font-size: 5rem;
+  font-family: 'Ubuntu', cursive;
+  font-weight: bolder;
+  line-height: 1.5;
+  padding-right: 30px;
+  text-shadow: 0px 0px 10px #ffffff2f;
+}
+.section--1 img{
+  width: 35%;
+  box-shadow: 0px 0px 20px #081C15;
+  border-radius: 15px;
+}
+
+/* Section--2   */
+
+.section--2{
+  background-color: #D8F3DC;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  padding: 100px 0px;
+  color: #081C15 ;
+}
+.card{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  flex-wrap: wrap;
+}
+.card img{
+  width: 350px;
+  height: 400px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 30px;
+  image-rendering: auto;
+  filter: grayscale(20%)
+}
+.card div{
+  width: 30%;
+}
+.card h1{
+  font-size: 3rem;
+  font-family: 'Dela Gothic One', cursive;
+}
+.card p{
+  font-size: 1.5rem;
+}
+.card-2{
+  flex-direction: row-reverse;
+}
+.img-2{
+  width: 400px;
+}
+
+/* Section--3    */
+.section--3{
+  width: 100%;
+  padding: 5%;
+  background-color: #D8F3DC;
+  color:#081C15;
+  font-size: 1rem;
+}
+.section--3>h1{
+  text-align: center;
+  font-size: 5rem;
+  font-family: 'Dela Gothic One';
+  margin-bottom: 50px;
+}
+.product{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  background-color: rgb(185, 219, 161);
+  width: 100%;
+  height: 38vh;
+  padding: 10px 20px;
+  border-radius: 30px;
+  backdrop-filter: blur(3px);
+  border: 2px solid #081C15;
+  margin-bottom: 30px;
+}
+.product h1{
+  font-size: 3rem;
+  width: 20%;
+}
+.product p{
+  width: 40%;
+  font-size: 1.5rem;
+}
+.product a{
+    font-size: 1.5rem;
+    padding: 5px 10px;
+    border: 2px solid black;
+    border-radius: 50px;
+}
+
+.product img{
+  height: 100%;
+  border-radius: 15px;
+  box-shadow: 0px 0px 5px black;
+}
+ 
+/* Section--4   */
+.section--4{
+  width: 100%;
+  background-color: #D8F3DC;
+  color:#081C15;
+}
+.section--4 h1{
+  width: 100%;
+  text-align: center;
+  font-size: 6rem;
+  text-transform: uppercase;
+  font-family: 'Roboto';
+  font-weight: bolder;
+  letter-spacing:3px;
+}
+.about{
+  padding: 30px 15%;
+}
+.about h2{
+  font-size: 3rem;
+  font-weight: bold;
+}
+.about p{
+  font-size: 2rem;
+  text-align: center;
+  padding: 10px 20px ;
+}
+.co-founders h1{
+  font-size: 4rem;
+  font-family: 'Roboto';
+  font-weight: bolder;
+}
+.co-founders .container{
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  padding-top: 50px;
+}
+.co-founder img{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+.co-founder{
+  width: 35%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.co-founder h2{
+  font-size: 2rem;
+  margin-top: 10px;
+}
+.co-founder h3{
+  font-size: 1.6rem;
+}
+.co-founder p{
+  font-size: 1.5rem;
+  padding: 10px 20px;
+}
+.line{
+  width: 100%;
+  border: 2px solid rgb(71, 100, 28);
+}
+.team{
+  padding: 10px 15%;
+  padding-bottom: 100px;
+}
+.team h2{
+  font-size: 3rem;
+}
+.team-member h3{
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+.team-member span{
+  font-weight: bold;
+}
+
+
+
+/* Footer section   */
+footer{
+background-color: #D8F3DC;
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+padding: 50px 0px;
+font-size: 1.5rem;
+color: #081C15;
+}
+footer img{
+  width: 300px;
+  mix-blend-mode: multiply;
+}
+footer h1{
+  margin-top: 30px;
+}
+footer h3{
+  width: 40%;
+  text-align: center;
+  margin-top: 20px;
+  opacity: 0.7;
+}
